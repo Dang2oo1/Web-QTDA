@@ -1,0 +1,304 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.content-1{
+    background-color: #F5F5F5;
+}
+
+.icon{
+    padding-left: 100px;
+    padding-top: 8px;
+}
+
+.span-icon{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.details-content-1{
+    text-align: center;
+    padding-top: 60px;
+}
+
+.details-content-1 > h2{
+    padding: 10px;
+    font-family: "Lato",Sans-serif;
+    text-transform: uppercase;
+}
+
+.gachchan {
+    color: #FB9D43; 
+   
+}
+
+.details-content-1 > p {
+    color: #7a7a7a;
+    font-family: "Lato",Sans-serif;
+    padding-top: 20px;
+}
+
+.content-2{
+    background-image: url("http://feelingteaonline.com/wp-content/uploads/2020/08/99LABSTUDIO-8115-scaled.jpg");
+}
+
+.first-1 > ul {
+    display: flex;
+    text-align: center;
+    padding-top: 60px;
+    padding-left: 50px;
+}
+
+.first-1 > ul >li{
+    list-style: none;
+}
+
+.anh{
+    background-color: #fff;
+    width: 400px;
+    height: 110px;
+    border-color: #FB9D43;
+    background-color: #fff;
+    border: #FB9D43 solid 2px ;
+    border-radius: 2px;
+}
+
+.anh:hover{
+    background-color: #FB9D43;
+}
+
+.anh >img{
+    padding-top: 20px;
+}
+
+.first-2{
+    padding-left: 80px;
+    text-align: center;
+}
+
+.first-2 > ul{
+    display: flex;
+}
+
+.first-2 > ul > li{
+    list-style: none;
+}
+
+.title{
+    background-color: #fff;
+    padding-top: 10px;
+    width: 350px;
+    height: 110px;
+    margin: 15px;
+}
+
+.title > h3{
+    font-family: "Lato",Sans-serif;
+    text-transform: uppercase;
+    color: #FB9D43;
+}
+
+.gchan{
+    margin-bottom: 10px;
+}
+
+.title > p{
+    margin-bottom: 10px;
+}
+
+.details-content-2{
+    margin-top: 40px;
+}
+
+.final-details-content-2{
+    font-family: "Lato",Sans-serif;
+    text-transform: uppercase;
+    color: #FB9D43;
+    padding: 30px;
+}
+
+
+.ul-uudai{
+    padding: 20px;
+    
+}
+
+.ul-uudai > li{
+    padding-top: 10px;
+    font-family: "Lato",Sans-serif;
+    color: #191919;
+    list-style: none;
+}
+
+.details-content-3{
+    text-align: center;
+    padding-top: 50px;
+    font-family: "Lato",Sans-serif;
+    text-transform: uppercase;
+}
+
+.details-content-3 > h2 {
+    padding-bottom: 30px;
+}
+
+.content-4{
+    background-color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.details-content-4{
+    padding-top: 50px;
+    
+}
+
+.details-content-4 > p{
+    color: #7a7a7a;
+    font-family: "Lato",Sans-serif;
+    padding: 20px 80px;
+}
+
+.first-details-content-4{
+    text-align: center;
+    font-family: "Lato",Sans-serif;
+    text-transform: uppercase;
+}
+
+.first-details-content-4 > span{
+    color: #FB9D43;
+    font-weight: bold;
+}
+
+.final-details-content-4{
+    display: flex;
+    background-color: #FFE2C9;
+    margin-left: 80px;
+    margin-right: 100px;
+}
+
+.ba-buoc{
+    padding-top: 100px;
+}
+
+.buoc1{
+    padding: 20px;
+}
+
+.buoc1 > span{
+    color: #191919;
+    font-weight: bold;
+    font-family: "Lato",Sans-serif;
+    
+}
+
+.buoc1 > p{
+    padding: 10px 0px 5px 50px;
+    font-family: "Lato",Sans-serif;
+    line-height: 24px;
+}
+
+span::before{
+    content: attr(data-index);   
+    top: 0;
+    left: 0;
+   width: 54px;
+   height: 54px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 24px;
+    background: #191919;
+    color: #fff;
+    margin-right: 30px;
+    font-weight: 700;
+}
+
+.container-footer{
+   
+    width: 1350px;
+    height: 470px;
+    background-color: #424140;
+}
+
+.content-footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 50px 0px 50px;
+}
+
+
+
+.title-footer{
+    font-family: "Lato",Sans-serif;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.word-footer{
+    font-family: "Lato",Sans-serif;
+    color: #fff;
+    padding: 20px 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.word-footer > p {
+    padding: 10px 0px;
+}
+
+.menu{
+    padding: 32px 0px;
+}
+
+.menu > li{
+    list-style: none;
+    padding: 10px 0px;
+}
+
+.menu > li > a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+#link{
+    padding-top: 30px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+ 
+.fa:hover {
+    opacity: 0.7;
+}
+ 
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+ 
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+ 
+.fa-instagram {
+    background: #333;
+    color: white;
+}
+ 
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+  

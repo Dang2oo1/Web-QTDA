@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: #F5F5F5;
+    
+}
+
+.icon{
+    padding-left: 100px;
+    padding-top: 40px;
+}
+
+.span-icon{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content-1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    background-color: #fff;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.details-content-1{
+    padding: 20px 20px 0px 20px;
+}
+
+.details-content-1 > h2{
+    padding: 20px;
+    font-family: "Lato",Sans-serif;
+    text-transform: uppercase;
+}
+
+.ul-tuyendung{
+    padding: 20px;
+}
+
+.ul-tuyendung > li{
+    padding-top: 20px;
+    font-family: "Lato",Sans-serif;
+    color: #191919;
+    list-style: none;
+}
+
+.details-img-content-1{
+    padding: 40px 30px 20px 30px;
+}
+
+.content-2{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.details-content-2 > h2{
+    color: #2B2B2B;
+    text-transform: uppercase;
+    font-family: "Lato",Sans-serif;
+}
+
+.details-content-2 > p {
+    color: red;
+    padding: 10px;
+    
+}
+
+.tructiep{
+    background-color: #fff;
+    margin-left: 50px;
+    margin-right: 20px;
+    height: 40px;
+    padding-top:20px ;
+    border: solid #191919;
+}
+
+.online{
+    margin-top: 20px;
+    background-color: #FB9D43;
+    margin-left: 50px;
+    margin-right: 20px;
+    height: 40px;
+    padding-top:20px ;
+    color: #fff;
+}
+
+.content-3{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.details-content-3{
+    background-color: #C0C0C0;
+    margin-right: 100px;
+    margin-bottom: 20px;
+}
+
+.details-content-3 > h3{
+    font-family: "Lato",Sans-serif;
+    text-transform: uppercase;
+    color: #FB9D43;
+    padding: 10px 0px 20px 50px;
+    text-align: center;
+}
+
+.details-content-3 > img{
+    padding: 0px 20px;
+}
+
+.information{
+    padding-right: 450px;
+  
+}
+
+.information > input{
+   height: 30px;
+   width: 500px;
+   margin-bottom: 20px;
+}
+
+.information > label{
+    font-family: "Helvetica",Sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    font-style: normal;
+   
+}
+
+#HaNoi{
+    padding-left: 10px;
+    width: 500px;
+    height: 35px;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.plc{
+    padding-left: 10px;
+    font-family: "Lato",Sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #7a7a7a;
+    font-weight: 200;
+}
+
+.up{
+    margin-top: 120px;
+}
+
+.btn-submit{
+    border-color: #FB9D43;
+    background-color: #FB9D43;
+    border-style: solid 2px;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 15px;
+    height: 40px;
+    width: 100px;
+    margin-top: 100px;
+    margin-left: 150px;
+  }
+  
+  .container-footer{
+   
+    width: 1350px;
+    height: 470px;
+    background-color: #424140;
+}
+
+.content-footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 50px 0px 50px;
+}
+
+
+
+.title-footer{
+    font-family: "Lato",Sans-serif;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.word-footer{
+    font-family: "Lato",Sans-serif;
+    color: #fff;
+    padding: 20px 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.word-footer > p {
+    padding: 10px 0px;
+}
+
+.menu{
+    padding: 32px 0px;
+}
+
+.menu > li{
+    list-style: none;
+    padding: 10px 0px;
+}
+
+.menu > li > a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+#link{
+    padding-top: 30px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+ 
+.fa:hover {
+    opacity: 0.7;
+}
+ 
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+ 
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+ 
+.fa-instagram {
+    background: #333;
+    color: white;
+}
+ 
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+  
